@@ -2,7 +2,7 @@ function App() {
   return (
     <>
       <header>
-        <div className="w-screen flex justify-between items-center p-4">
+        <div className="w-[90%] mx-auto flex justify-between items-center p-4">
           <div>
             <h1 className="text-xl font-bold pl-6 text-blue-800">Portfolio</h1>
           </div>
