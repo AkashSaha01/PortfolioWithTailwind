@@ -7,6 +7,7 @@ export default {
         primary: "#2047a5",
         highlightedColor: "#04236e",
         lightbg: "#ebeffa",
+        lightsky: "#e6f2fa",
       },
     },
   },

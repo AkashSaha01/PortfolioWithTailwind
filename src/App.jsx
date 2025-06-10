@@ -54,13 +54,15 @@ function App() {
         </div>
         <br />
       </section>
-      <section className="bg-sky-50 ">
-        <div className="flex items-center w-[80%] mx-auto my-8 py-11">
+      <section className="bg-lightbg">
+        <div className="flex items-center w-[75%] mx-auto my-8 py-11">
           <div className="flex-grow h-px bg-gray-400"></div>
-          <h2 className="px-4 text-2xl font-bold text-gray-900">ABOUT ME</h2>
+          <h2 className="px-4 text-2xl font-bold text-highlightedColor">
+            ABOUT ME
+          </h2>
           <div className="flex-grow h-px bg-gray-400"></div>
         </div>
-        <div className="flex items-center w-[80%] mx-auto my-8 py-11">
+        <div className="flex items-center w-[75%] mx-auto my-8 py-11 px-2">
           <div className="flex flex-col gap-4 w-[65%]">
             <p>
               As a dedicated and ambitious Frontend Web Developer, I specialize
@@ -78,7 +80,44 @@ function App() {
               approach and solve complex problems efficiently and effectively.
             </p>
           </div>
-          <div className="w-[34%] p-6 flex justify-center">
+          <div className="w-[35%] p-6 flex justify-center">
+            <div className="p-[4px] rounded-full bg-gradient-to-r from-primary via-black to-primary">
+              <img
+                src="/imageMeProfile.jpg"
+                alt="Profile"
+                className="w-[220px] h-[220px] rounded-full object-cover bg-white"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-lightbg">
+        <div className="flex items-center w-[75%] mx-auto my-8 py-11">
+          <div className="flex-grow h-px bg-gray-400"></div>
+          <h2 className="px-4 text-2xl font-bold text-highlightedColor">
+            Experience
+          </h2>
+          <div className="flex-grow h-px bg-gray-400"></div>
+        </div>
+        <div className="flex items-center w-[75%] mx-auto my-8 py-11 px-2">
+          <div className="flex flex-col gap-4 w-[65%]">
+            <p>
+              As a dedicated and ambitious Frontend Web Developer, I specialize
+              in building modern, responsive, and user-centric interfaces using
+              React.js, Next.js, and Tailwind CSS. While I have a solid
+              background in the MERN stack and full-stack development, my true
+              passion lies in frontend work—where performance, design precision,
+              and user experience intersect.
+            </p>
+            <p>
+              I hold a B.Sc. in Computer Science from East West University and
+              an M.Sc. in Computer Science from Jahangirnagar University.
+              Currently, I am working as a Software Engineer. My academic
+              background, combined with professional experience, enables me to
+              approach and solve complex problems efficiently and effectively.
+            </p>
+          </div>
+          <div className="w-[35%] p-6 flex justify-center">
             <div className="p-[4px] rounded-full bg-gradient-to-r from-primary via-black to-primary">
               <img
                 src="/imageMeProfile.jpg"
