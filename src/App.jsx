@@ -1,3 +1,4 @@
+import { ChevronDownCircleIcon } from "lucide-react";
 function App() {
   return (
     <div className="h-screen flex flex-col">
@@ -27,18 +28,18 @@ function App() {
           </nav>
 
           <div className="flex gap-2">
-            <button className="px-4 py-2 bg-white text-black rounded border border-gray-300">
+            <button className="px-6 py-2 bg-white text-black rounded-lg border border-gray-300 hover:bg-highlightedColor hover:text-white transition-all duration-300 shadow-sm hover:shadow-md">
               Resume
             </button>
 
-            <button className="px-4 py-2 bg-white text-black rounded border border-gray-300">
-              Hire me
+            <button className="px-6 py-2 bg-white text-black rounded-lg border border-gray-300 hover:bg-highlightedColor hover:text-white transition-all duration-300 shadow-sm hover:shadow-md">
+              Hire Me
             </button>
           </div>
         </div>
       </header>
 
-      <section className="bg-lightbg h-[89%] flex justify-center items-center">
+      <section className="bg-lightbg h-[89%] flex flex-col justify-center items-center">
         <div className="w-[50%] text-center">
           <h2 className="text-3xl font-bold mb-2 text-blue-950">
             Hi, I am Akash Saha
@@ -47,6 +48,9 @@ function App() {
             Frontend Developer passionate about creating beautiful,
             user-friendly web experiences with React and modern CSS.
           </h3>
+        </div>
+        <div className="p-4 font-bold text-highlightedColor text-3xl">
+          <ChevronDownCircleIcon />
         </div>
       </section>
     </div>
