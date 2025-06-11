@@ -101,7 +101,7 @@ function App() {
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
 
-          <div className="flex justify-center py-8">
+          <div className="flex flex-col justify-center py-8 gap-8">
             <div className="flex  pl-6">
               <div className="w-[25%] flex flex-col items-center pr-6 border-r-2 border-gray-800">
                 <h3 className="text-xl font-semibold">Software Engineer</h3>
@@ -126,6 +126,31 @@ function App() {
                     components and implementing lazy loading.
                   </li>
                 </ul>
+              </div>
+            </div>
+            <div className="flex  pl-6 pt-4">
+              <div className="w-[75%] pl-8 space-y-4">
+                <ul className="list-disc space-y-2 text-gray-800">
+                  <li>
+                    Developed and maintained scalable web applications using
+                    React and Node.js, ensuring high performance and
+                    cross-browser compatibility.
+                  </li>
+                  <li>
+                    Collaborated with designers and backend engineers to
+                    implement responsive UI/UX across multiple devices.
+                  </li>
+                  <li>
+                    Improved application performance by 30% by optimizing
+                    components and implementing lazy loading.
+                  </li>
+                </ul>
+              </div>
+              <div className="w-[25%] flex flex-col items-center pr-6 border-l-2 border-gray-800">
+                <h3 className="text-xl font-semibold">Software Engineer</h3>
+                <p className="text-gray-700">Ultra-X BD Ltd</p>
+                <div className="w-[80%] border-b-2 border-gray-600 my-2"></div>
+                <p className="text-base text-gray-800">June 2022 - June 2025</p>
               </div>
             </div>
           </div>
