@@ -103,15 +103,13 @@ function App() {
 
           <div className="flex justify-center py-8">
             <div className="flex  pl-6">
-              {/* Left Section - Job Info */}
-              <div className="w-[25%] flex flex-col items-center pr-6 border-r border-gray-300">
+              <div className="w-[25%] flex flex-col items-center pr-6 border-r-2 border-gray-800">
                 <h3 className="text-xl font-semibold">Software Engineer</h3>
                 <p className="text-gray-700">Ultra-X BD Ltd</p>
                 <div className="w-[80%] border-b-2 border-gray-600 my-2"></div>
                 <p className="text-base text-gray-800">June 2022 - June 2025</p>
               </div>
 
-              {/* Right Section - Responsibilities */}
               <div className="w-[75%] pl-8 space-y-4">
                 <ul className="list-disc space-y-2 text-gray-800">
                   <li>
