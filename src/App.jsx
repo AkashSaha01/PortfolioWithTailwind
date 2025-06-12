@@ -161,12 +161,17 @@ function App() {
           <div className="flex items-center w-full mb-8">
             <div className="flex-grow h-px bg-gray-400"></div>
             <h2 className="px-4 text-2xl font-bold text-highlightedColor">
-              Experience
+              Featured Project
             </h2>
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
 
-          <div className="w-full"></div>
+          <div className="w-full flex flex-col justify-center py-6 gap-6">
+            <div className="flex justify-center">
+              <div>Image</div>
+              <div>Details</div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
