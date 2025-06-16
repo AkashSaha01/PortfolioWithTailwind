@@ -1,4 +1,4 @@
-import { ChevronDownCircleIcon } from "lucide-react";
+import { ChevronDownCircleIcon, Github, Component } from "lucide-react";
 function App() {
   return (
     <div className="h-screen flex flex-col">
@@ -174,13 +174,17 @@ function App() {
                   className="border border-gray-500 shadow-md"
                 ></img>
               </div>
-              <div className="w-[45%] flex flex-col ">
+              <div className="w-[45%] flex flex-col py-6">
                 <div className="flex flex-col border-b-4  border-gray-800">
                   <h3 className="text-xl py-2 font-bold">Personal Portfolio</h3>
                   <h4 className="pb-4">
                     Welcome to my portfolio website built with React, styled
                     using Tailwind CSS, and enhanced with DaisyUI components.
                   </h4>
+                </div>
+                <div className="py-2 flex justify-start gap-4">
+                  <Github />
+                  <Component />
                 </div>
               </div>
             </div>
