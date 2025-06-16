@@ -193,7 +193,7 @@ function App() {
             <div className="flex justify-between gap-6 p-4">
               <div className="w-[45%] flex flex-col py-6">
                 <div className="flex flex-col border-b-4  border-gray-800">
-                  <h3 className="text-xl py-2 font-bold">Personal Portfolio</h3>
+                  <h3 className="text-xl py-2 font-bold">Furnio Website</h3>
                   <h4 className="pb-4">
                     Welcome to Furnio website built with React, styled using
                     Tailwind CSS, and enhanced with DaisyUI components.
@@ -212,6 +212,42 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-lightbg">
+        <div className="flex flex-col items-center w-[75%] mx-auto my-8 py-11">
+          <div className="flex items-center w-full mb-8">
+            <div className="flex-grow h-px bg-gray-400"></div>
+            <h2 className="px-4 text-2xl font-bold text-highlightedColor">
+              Other Projects
+            </h2>
+            <div className="flex-grow h-px bg-gray-400"></div>
+          </div>
+          <div className="w-full flex justify-between mx-auto">
+            <div className="w-[49%] flex justify-between px-2">
+              <div className="w-[45%] py-8">
+                <img
+                  src="lawliet_ss.png"
+                  className="border border-gray-500 shadow-md"
+                ></img>
+              </div>
+              <div className="w-[50%] flex flex-col py-6">
+                <div className="flex flex-col border-b-4  border-gray-800">
+                  <h3 className="text-xl py-2 font-bold">Personal Portfolio</h3>
+                  <h4 className="pb-4">
+                    Welcome to Lawliet website built with React, styled using
+                    Tailwind CSS, and enhanced with DaisyUI components.
+                  </h4>
+                </div>
+                <div className="py-2 flex justify-start gap-4">
+                  <Github />
+                  <Component />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-[49%] flex justify-between px-2"></div>
         </div>
       </section>
     </div>
