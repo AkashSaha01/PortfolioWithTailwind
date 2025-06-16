@@ -269,6 +269,54 @@ function App() {
               </div>
             </div>
           </div>
+
+          <div className="w-full flex justify-between mx-auto gap-2">
+            <div className="w-[49%] flex justify-between ">
+              <div className="w-[40%] py-10">
+                <img
+                  src="banglalibrary_ss.png"
+                  className="border border-gray-500 shadow-md"
+                ></img>
+              </div>
+              <div className="w-[55%] flex flex-col py-6">
+                <div className="flex flex-col border-b-4  border-gray-800">
+                  <h3 className="text-xl py-2 font-bold">
+                    Bangla Library Website
+                  </h3>
+                  <h4 className="pb-4">
+                    Welcome to Bangla Library website built with React, styled
+                    using Tailwind CSS, and enhanced with DaisyUI components.
+                  </h4>
+                </div>
+                <div className="py-2 flex justify-start gap-4">
+                  <Github />
+                  <Component />
+                </div>
+              </div>
+            </div>
+
+            <div className="w-[49%] flex justify-between ">
+              <div className="w-[40%] py-10">
+                <img
+                  src="sneakers_ss.png"
+                  className="border border-gray-500 shadow-md"
+                ></img>
+              </div>
+              <div className="w-[55%] flex flex-col py-6">
+                <div className="flex flex-col border-b-4  border-gray-800">
+                  <h3 className="text-xl py-2 font-bold">Sneakers Website</h3>
+                  <h4 className="pb-4">
+                    Welcome to Sneakers website built with React, styled using
+                    Tailwind CSS, and enhanced with DaisyUI components.
+                  </h4>
+                </div>
+                <div className="py-2 flex justify-start gap-4">
+                  <Github />
+                  <Component />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
