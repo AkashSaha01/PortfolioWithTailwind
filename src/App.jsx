@@ -167,9 +167,20 @@ function App() {
           </div>
 
           <div className="w-full flex flex-col justify-center py-6 gap-6">
-            <div className="flex justify-center">
-              <div>Image</div>
-              <div>Details</div>
+            <div className="flex justify-center gap-6">
+              <div className="w-[40%]">
+                <img
+                  src="/portfolio_ss.png"
+                  className="border border-gray-500 shadow-md"
+                ></img>
+              </div>
+              <div className="w-[50%] flex flex-col">
+                <h3>Personal Portfolio</h3>
+                <h4>
+                  Welcome to my portfolio website built with React, styled using
+                  Tailwind CSS, and enhanced with DaisyUI components.
+                </h4>
+              </div>
             </div>
           </div>
         </div>
