@@ -166,20 +166,22 @@ function App() {
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
 
-          <div className="w-full flex flex-col justify-center py-6 gap-6">
-            <div className="flex justify-center gap-6">
-              <div className="w-[40%]">
+          <div className="w-full flex flex-col justify-center py-6 ">
+            <div className="flex justify-between gap-6 p-4">
+              <div className="w-[45%]">
                 <img
                   src="/portfolio_ss.png"
                   className="border border-gray-500 shadow-md"
                 ></img>
               </div>
-              <div className="w-[50%] flex flex-col">
-                <h3>Personal Portfolio</h3>
-                <h4>
-                  Welcome to my portfolio website built with React, styled using
-                  Tailwind CSS, and enhanced with DaisyUI components.
-                </h4>
+              <div className="w-[45%] flex flex-col ">
+                <div className="flex flex-col border-b-4  border-gray-800">
+                  <h3 className="text-xl py-2 font-bold">Personal Portfolio</h3>
+                  <h4 className="pb-4">
+                    Welcome to my portfolio website built with React, styled
+                    using Tailwind CSS, and enhanced with DaisyUI components.
+                  </h4>
+                </div>
               </div>
             </div>
           </div>
