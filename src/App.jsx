@@ -319,6 +319,17 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="bg-lightbg">
+        <div className="flex flex-col items-center w-[75%] mx-auto my-8 py-11">
+          <div className="flex items-center w-full mb-8">
+            <div className="flex-grow h-px bg-gray-400"></div>
+            <h2 className="px-4 text-2xl font-bold text-highlightedColor">
+              Contact
+            </h2>
+            <div className="flex-grow h-px bg-gray-400"></div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
