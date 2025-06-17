@@ -43,21 +43,22 @@ function App() {
           </div>
         </div>
       </header>
-      <section className="bg-lightbg  flex flex-col justify-center items-center">
-        <div className="w-[50%] text-center pt-11 mt-11 ">
-          <h2 className="text-3xl pt-11 font-bold mb-2 mt-2 text-blue-950">
+      <section className="bg-lightbg flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8">
+        <div className="w-full max-w-2xl text-center pt-11 mt-11">
+          <h2 className="text-2xl sm:text-3xl pt-8 font-bold mb-2 text-blue-950">
             Hi, I am Akash Saha
           </h2>
-          <h3 className="text-lg">
+          <h3 className="text-base sm:text-lg">
             Frontend Developer passionate about creating beautiful,
             user-friendly web experiences with React and modern CSS.
           </h3>
         </div>
-        <div className="px-4 font-bold text-highlightedColor text-3xl mb-11 pb-11 pt-7">
-          <ChevronDownCircleIcon className="mb-11" />
+
+        <div className="text-highlightedColor text-2xl sm:text-3xl font-bold mt-6 mb-11 pb-11">
+          <ChevronDownCircleIcon className="mx-auto animate-bounce" />
         </div>
-        <br />
       </section>
+
       <section className="bg-lightbg">
         <div className="flex items-center w-[75%] mx-auto my-8 py-11">
           <div className="flex-grow h-px bg-gray-400"></div>
