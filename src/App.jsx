@@ -1,4 +1,10 @@
-import { ChevronDownCircleIcon, Github, Component } from "lucide-react";
+import {
+  ChevronDownCircleIcon,
+  Github,
+  Component,
+  Linkedin,
+  Facebook,
+} from "lucide-react";
 function App() {
   return (
     <div className="h-screen flex flex-col">
@@ -38,7 +44,6 @@ function App() {
           </div>
         </div>
       </header>
-
       <section className="bg-lightbg  flex flex-col justify-center items-center">
         <div className="w-[50%] text-center pt-11 mt-11 ">
           <h2 className="text-3xl pt-11 font-bold mb-2 mt-2 text-blue-950">
@@ -214,7 +219,6 @@ function App() {
           </div>
         </div>
       </section>
-
       <section className="bg-lightbg">
         <div className="flex flex-col items-center w-[75%] mx-auto my-8 py-11">
           <div className="flex items-center w-full mb-8">
@@ -393,6 +397,75 @@ function App() {
             </form>
           </div>
         </div>
+      </section>
+      ///footer
+      <section>
+        <footer className="bg-gray-900 text-gray-300 px-6 py-10">
+          <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 px-6">
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-2">About</h3>
+              <p>
+                A passionate frontend developer creating modern web experiences
+                with React and Tailwind CSS.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-2">
+                Quick Links
+              </h3>
+              <ul className="space-y-2">
+                <li>
+                  <a href="#home" className="hover:text-white">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#about" className="hover:text-white">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#experience" className="hover:text-white">
+                    Experience
+                  </a>
+                </li>
+                <li>
+                  <a href="#projects" className="hover:text-white">
+                    Projects
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" className="hover:text-white">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-2">
+                Connect With Me
+              </h3>
+              <div className="flex space-x-4">
+                <a href="#" className="hover:text-white">
+                  <Github />
+                </a>
+                <a href="#" className="hover:text-white">
+                  <Linkedin />
+                </a>
+                <a href="#" className="hover:text-white">
+                  <Facebook />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <hr className="my-6 border-gray-700" />
+          <div className="text-center text-sm">
+            © 2025 My Portfolio. All rights reserved.
+          </div>
+        </footer>
       </section>
     </div>
   );
