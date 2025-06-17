@@ -398,7 +398,7 @@ function App() {
           </div>
         </div>
       </section>
-      ///footer
+
       <section>
         <footer className="bg-gray-900 text-gray-300 px-6 py-10">
           <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 px-6">
@@ -410,7 +410,7 @@ function App() {
               </p>
             </div>
 
-            <div>
+            <div className="pl-8">
               <h3 className="text-lg font-semibold text-white mb-2">
                 Quick Links
               </h3>
@@ -443,7 +443,7 @@ function App() {
               </ul>
             </div>
 
-            <div>
+            <div className="pl-5">
               <h3 className="text-lg font-semibold text-white mb-2">
                 Connect With Me
               </h3>
