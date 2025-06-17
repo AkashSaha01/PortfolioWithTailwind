@@ -328,6 +328,70 @@ function App() {
             </h2>
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
+          <div className="max-w-md mx-auto mt-10 text-center">
+            <p className="mb-4 text-lg">
+              I am currently seeking employment, and I would appreciate it if
+              you could contact me with any available job opportunities.
+            </p>
+
+            <h2 className="text-xl font-semibold mb-6">Let's Inbox me...</h2>
+
+            <form className="space-y-4 text-left">
+              <div>
+                <label
+                  className="block text-sm font-medium mb-1"
+                  htmlFor="name"
+                >
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Your name"
+                  className="w-full px-4 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+                />
+              </div>
+
+              <div>
+                <label
+                  className="block text-sm font-medium mb-1"
+                  htmlFor="email"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="your.email@example.com"
+                  className="w-full px-4 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+                />
+              </div>
+
+              <div>
+                <label
+                  className="block text-sm font-medium mb-1"
+                  htmlFor="message"
+                >
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Your message here..."
+                  className="w-full px-4 py-2 border border-gray-400 rounded-md resize-none focus:outline-none focus:ring-2 focus:ring-black"
+                ></textarea>
+              </div>
+
+              <div className="text-center pt-2">
+                <button
+                  type="submit"
+                  className="px-6 py-2 font-bold bg-blue-100 text-black border border-black rounded hover:bg-blue-900 hover:text-white transition-all"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
     </div>
