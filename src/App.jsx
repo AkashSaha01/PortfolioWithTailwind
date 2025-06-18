@@ -170,31 +170,39 @@ function App() {
         </div>
       </section>
       <section className="bg-lightbg">
-        <div className="flex flex-col items-center w-[75%] mx-auto my-8 py-11">
+        <div className="flex flex-col items-center w-[90%] md:w-[75%] mx-auto my-8 py-11">
+          {/* Title */}
           <div className="flex items-center w-full mb-8">
             <div className="flex-grow h-px bg-gray-400"></div>
-            <h2 className="px-4 text-2xl font-bold text-highlightedColor">
+            <h2 className="px-4 text-xl md:text-2xl font-bold text-highlightedColor">
               Featured Project
             </h2>
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
-          <div className="w-full flex flex-col justify-center py-6 ">
-            <div className="flex justify-between gap-6 p-4">
-              <div className="w-[45%]">
+
+          {/* Project 1 */}
+          <div className="w-full flex flex-col justify-center py-6">
+            <div className="flex flex-col md:flex-row justify-between gap-6 p-4">
+              {/* Image */}
+              <div className="w-full md:w-[45%]">
                 <img
                   src="/portfolio_ss.png"
-                  className="border border-gray-500 shadow-md"
-                ></img>
+                  className="border border-gray-500 shadow-md w-full"
+                  alt="Portfolio Screenshot"
+                />
               </div>
-              <div className="w-[45%] flex flex-col py-6">
-                <div className="flex flex-col border-b-4  border-gray-800">
-                  <h3 className="text-xl py-2 font-bold">Personal Portfolio</h3>
-                  <h4 className="pb-4">
+              {/* Text */}
+              <div className="w-full md:w-[45%] flex flex-col justify-center py-6">
+                <div className="flex flex-col border-b-4 border-gray-800">
+                  <h3 className="text-lg md:text-xl py-2 font-bold">
+                    Personal Portfolio
+                  </h3>
+                  <p className="pb-4 text-sm md:text-base">
                     Welcome to my portfolio website built with React, styled
                     using Tailwind CSS, and enhanced with DaisyUI components.
-                  </h4>
+                  </p>
                 </div>
-                <div className="py-2 flex justify-start gap-4">
+                <div className="py-2 flex gap-4">
                   <Github />
                   <Component />
                 </div>
@@ -202,26 +210,32 @@ function App() {
             </div>
           </div>
 
-          <div className="w-full flex flex-col justify-center py-6 ">
-            <div className="flex justify-between gap-6 p-4">
-              <div className="w-[45%] flex flex-col py-6">
-                <div className="flex flex-col border-b-4  border-gray-800">
-                  <h3 className="text-xl py-2 font-bold">Furnio Website</h3>
-                  <h4 className="pb-4">
+          {/* Project 2 */}
+          <div className="w-full flex flex-col justify-center py-6">
+            <div className="flex flex-col md:flex-row-reverse justify-between gap-6 p-4">
+              {/* Image */}
+              <div className="w-full md:w-[45%]">
+                <img
+                  src="/furnio_ss.png"
+                  className="border border-gray-500 shadow-md w-full"
+                  alt="Furnio Screenshot"
+                />
+              </div>
+              {/* Text */}
+              <div className="w-full md:w-[45%] flex flex-col justify-center py-6">
+                <div className="flex flex-col border-b-4 border-gray-800">
+                  <h3 className="text-lg md:text-xl py-2 font-bold">
+                    Furnio Website
+                  </h3>
+                  <p className="pb-4 text-sm md:text-base">
                     Welcome to Furnio website built with React, styled using
                     Tailwind CSS, and enhanced with DaisyUI components.
-                  </h4>
+                  </p>
                 </div>
-                <div className="py-2 flex justify-start gap-4">
+                <div className="py-2 flex gap-4">
                   <Github />
                   <Component />
                 </div>
-              </div>
-              <div className="w-[45%]">
-                <img
-                  src="/furnio_ss.png"
-                  className="border border-gray-500 shadow-md"
-                ></img>
               </div>
             </div>
           </div>
