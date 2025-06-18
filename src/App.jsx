@@ -343,27 +343,33 @@ function App() {
         </div>
       </section>
       <section className="bg-lightbg">
-        <div className="flex flex-col items-center w-[75%] mx-auto my-8 py-11">
+        <div className="flex flex-col items-center w-[90%] md:w-[75%] mx-auto my-8 py-11">
+          {/* Title */}
           <div className="flex items-center w-full mb-8">
             <div className="flex-grow h-px bg-gray-400"></div>
-            <h2 className="px-4 text-2xl font-bold text-highlightedColor">
+            <h2 className="px-4 text-xl md:text-2xl font-bold text-highlightedColor">
               Contact
             </h2>
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
-          <div className="max-w-md mx-auto mt-10 text-center">
-            <p className="mb-4 text-lg">
+
+          {/* Contact Content */}
+          <div className="w-full max-w-md text-center">
+            <p className="mb-4 text-base md:text-lg">
               I am currently seeking employment, and I would appreciate it if
               you could contact me with any available job opportunities.
             </p>
 
-            <h2 className="text-xl font-semibold mb-6">Let's Inbox me...</h2>
+            <h2 className="text-lg md:text-xl font-semibold mb-6">
+              Let's inbox me...
+            </h2>
 
             <form className="space-y-4 text-left">
+              {/* Name */}
               <div>
                 <label
-                  className="block text-sm font-medium mb-1"
                   htmlFor="name"
+                  className="block text-sm font-medium mb-1"
                 >
                   Name
                 </label>
@@ -375,10 +381,11 @@ function App() {
                 />
               </div>
 
+              {/* Email */}
               <div>
                 <label
-                  className="block text-sm font-medium mb-1"
                   htmlFor="email"
+                  className="block text-sm font-medium mb-1"
                 >
                   Email
                 </label>
@@ -390,10 +397,11 @@ function App() {
                 />
               </div>
 
+              {/* Message */}
               <div>
                 <label
-                  className="block text-sm font-medium mb-1"
                   htmlFor="message"
+                  className="block text-sm font-medium mb-1"
                 >
                   Message
                 </label>
@@ -405,6 +413,7 @@ function App() {
                 ></textarea>
               </div>
 
+              {/* Button */}
               <div className="text-center pt-2">
                 <button
                   type="submit"
