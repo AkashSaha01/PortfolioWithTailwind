@@ -240,7 +240,6 @@ function App() {
       </section>
       <section className="bg-lightbg">
         <div className="flex flex-col items-center w-[90%] md:w-[75%] mx-auto my-8 py-11">
-          {/* Title */}
           <div className="flex items-center w-full mb-8">
             <div className="flex-grow h-px bg-gray-400"></div>
             <h2 className="px-4 text-xl md:text-2xl font-bold text-highlightedColor">
@@ -249,11 +248,8 @@ function App() {
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
 
-          {/* Project Rows */}
           <div className="w-full flex flex-col gap-6">
-            {/* Row 1 */}
             <div className="flex flex-col md:flex-row justify-between gap-4">
-              {/* Project Card 1 */}
               <div className="w-full md:w-[49%] flex flex-col md:flex-row items-center md:items-start gap-4">
                 <div className="w-full md:w-[40%]">
                   <img
@@ -275,7 +271,6 @@ function App() {
                 </div>
               </div>
 
-              {/* Project Card 2 */}
               <div className="w-full md:w-[49%] flex flex-col md:flex-row items-center md:items-start gap-4">
                 <div className="w-full md:w-[40%]">
                   <img
@@ -298,9 +293,7 @@ function App() {
               </div>
             </div>
 
-            {/* Row 2 */}
             <div className="flex flex-col md:flex-row justify-between gap-4">
-              {/* Project Card 3 */}
               <div className="w-full md:w-[49%] flex flex-col md:flex-row items-center md:items-start gap-4">
                 <div className="w-full md:w-[40%]">
                   <img
@@ -324,7 +317,6 @@ function App() {
                 </div>
               </div>
 
-              {/* Project Card 4 */}
               <div className="w-full md:w-[49%] flex flex-col md:flex-row items-center md:items-start gap-4">
                 <div className="w-full md:w-[40%]">
                   <img
