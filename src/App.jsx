@@ -171,7 +171,6 @@ function App() {
       </section>
       <section className="bg-lightbg">
         <div className="flex flex-col items-center w-[90%] md:w-[75%] mx-auto my-8 py-11">
-          {/* Title */}
           <div className="flex items-center w-full mb-8">
             <div className="flex-grow h-px bg-gray-400"></div>
             <h2 className="px-4 text-xl md:text-2xl font-bold text-highlightedColor">
@@ -180,10 +179,8 @@ function App() {
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
 
-          {/* Project 1 */}
           <div className="w-full flex flex-col justify-center py-6">
             <div className="flex flex-col md:flex-row justify-between gap-6 p-4">
-              {/* Image */}
               <div className="w-full md:w-[45%]">
                 <img
                   src="/portfolio_ss.png"
@@ -191,7 +188,7 @@ function App() {
                   alt="Portfolio Screenshot"
                 />
               </div>
-              {/* Text */}
+
               <div className="w-full md:w-[45%] flex flex-col justify-center py-6">
                 <div className="flex flex-col border-b-4 border-gray-800">
                   <h3 className="text-lg md:text-xl py-2 font-bold">
