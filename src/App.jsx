@@ -100,8 +100,7 @@ function App() {
       </section>
 
       <section className="bg-lightbg">
-        <div className="flex flex-col items-center w-[90%] md:w-[75%] mx-auto my-8 py-11">
-          {/* Section Title */}
+        <div className="flex flex-col items-center w-[85%] md:w-[75%] mx-auto my-8 py-11">
           <div className="flex items-center w-full">
             <div className="flex-grow h-px bg-gray-400"></div>
             <h2 className="px-4 text-xl md:text-2xl font-bold text-highlightedColor text-center">
@@ -110,11 +109,8 @@ function App() {
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
 
-          {/* Experience Blocks */}
           <div className="flex flex-col justify-center py-8 gap-10 w-full">
-            {/* Experience Item 1 */}
             <div className="flex flex-col md:flex-row md:pl-6 gap-6">
-              {/* Left Column - Job Info */}
               <div className="w-full md:w-[25%] flex flex-col items-center md:items-start pr-6 border-b-2 md:border-b-0 md:border-r-2 border-gray-800">
                 <h3 className="text-xl font-semibold">Software Engineer</h3>
                 <p className="text-gray-700">Ultra-X BD Ltd</p>
@@ -122,7 +118,6 @@ function App() {
                 <p className="text-base text-gray-800">June 2022 - June 2025</p>
               </div>
 
-              {/* Right Column - Details */}
               <div className="w-full md:w-[75%] pl-0 md:pl-8 space-y-4">
                 <ul className="list-disc space-y-2 text-gray-800">
                   <li>
