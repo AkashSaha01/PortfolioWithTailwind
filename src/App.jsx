@@ -100,25 +100,30 @@ function App() {
       </section>
 
       <section className="bg-lightbg">
-        <div className="flex  flex-col items-center w-[75%] mx-auto my-8 py-11">
+        <div className="flex flex-col items-center w-[90%] md:w-[75%] mx-auto my-8 py-11">
+          {/* Section Title */}
           <div className="flex items-center w-full">
             <div className="flex-grow h-px bg-gray-400"></div>
-            <h2 className="px-4 text-2xl font-bold text-highlightedColor">
+            <h2 className="px-4 text-xl md:text-2xl font-bold text-highlightedColor text-center">
               Experience
             </h2>
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
 
-          <div className="flex flex-col justify-center py-8 gap-8">
-            <div className="flex  pl-6">
-              <div className="w-[25%] flex flex-col items-center pr-6 border-r-2 border-gray-800">
+          {/* Experience Blocks */}
+          <div className="flex flex-col justify-center py-8 gap-10 w-full">
+            {/* Experience Item 1 */}
+            <div className="flex flex-col md:flex-row md:pl-6 gap-6">
+              {/* Left Column - Job Info */}
+              <div className="w-full md:w-[25%] flex flex-col items-center md:items-start pr-6 border-b-2 md:border-b-0 md:border-r-2 border-gray-800">
                 <h3 className="text-xl font-semibold">Software Engineer</h3>
                 <p className="text-gray-700">Ultra-X BD Ltd</p>
-                <div className="w-[80%] border-b-2 border-gray-600 my-2"></div>
+                <div className="w-[80%] border-b-2 border-gray-600 my-2 md:hidden"></div>
                 <p className="text-base text-gray-800">June 2022 - June 2025</p>
               </div>
 
-              <div className="w-[75%] pl-8 space-y-4">
+              {/* Right Column - Details */}
+              <div className="w-full md:w-[75%] pl-0 md:pl-8 space-y-4">
                 <ul className="list-disc space-y-2 text-gray-800">
                   <li>
                     Developed and maintained scalable web applications using
@@ -136,8 +141,19 @@ function App() {
                 </ul>
               </div>
             </div>
-            <div className="flex  pl-6 pt-4">
-              <div className="w-[75%] pl-8 space-y-4">
+
+            {/* Experience Item 2 */}
+            <div className="flex flex-col md:flex-row-reverse md:pl-6 gap-6 pt-4">
+              {/* Right Column - Job Info */}
+              <div className="w-full md:w-[25%] flex flex-col items-center md:items-end pl-0 md:pl-6 border-t-2 md:border-t-0 md:border-l-2 border-gray-800">
+                <h3 className="text-xl font-semibold">Software Engineer</h3>
+                <p className="text-gray-700">Ultra-X BD Ltd</p>
+                <div className="w-[80%] border-b-2 border-gray-600 my-2 md:hidden"></div>
+                <p className="text-base text-gray-800">June 2022 - June 2025</p>
+              </div>
+
+              {/* Left Column - Details */}
+              <div className="w-full md:w-[75%] pr-0 md:pr-8 space-y-4">
                 <ul className="list-disc space-y-2 text-gray-800">
                   <li>
                     Developed and maintained scalable web applications using
@@ -153,12 +169,6 @@ function App() {
                     components and implementing lazy loading.
                   </li>
                 </ul>
-              </div>
-              <div className="w-[25%] flex flex-col items-center pr-6 border-l-2 border-gray-800">
-                <h3 className="text-xl font-semibold">Software Engineer</h3>
-                <p className="text-gray-700">Ultra-X BD Ltd</p>
-                <div className="w-[80%] border-b-2 border-gray-600 my-2"></div>
-                <p className="text-base text-gray-800">June 2022 - June 2025</p>
               </div>
             </div>
           </div>
