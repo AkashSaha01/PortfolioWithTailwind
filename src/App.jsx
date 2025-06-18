@@ -239,103 +239,110 @@ function App() {
         </div>
       </section>
       <section className="bg-lightbg">
-        <div className="flex flex-col items-center w-[75%] mx-auto my-8 py-11">
+        <div className="flex flex-col items-center w-[90%] md:w-[75%] mx-auto my-8 py-11">
+          {/* Title */}
           <div className="flex items-center w-full mb-8">
             <div className="flex-grow h-px bg-gray-400"></div>
-            <h2 className="px-4 text-2xl font-bold text-highlightedColor">
+            <h2 className="px-4 text-xl md:text-2xl font-bold text-highlightedColor">
               Other Projects
             </h2>
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
-          <div className="w-full flex justify-between mx-auto gap-2">
-            <div className="w-[49%] flex justify-between ">
-              <div className="w-[40%] py-8">
-                <img
-                  src="lawliet_ss.png"
-                  className="border border-gray-500 shadow-md"
-                ></img>
-              </div>
-              <div className="w-[55%] flex flex-col py-6">
-                <div className="flex flex-col border-b-4  border-gray-800">
-                  <h3 className="text-xl py-2 font-bold">Lawliet Website</h3>
-                  <h4 className="pb-4">
+
+          {/* Project Rows */}
+          <div className="w-full flex flex-col gap-6">
+            {/* Row 1 */}
+            <div className="flex flex-col md:flex-row justify-between gap-4">
+              {/* Project Card 1 */}
+              <div className="w-full md:w-[49%] flex flex-col md:flex-row items-center md:items-start gap-4">
+                <div className="w-full md:w-[40%]">
+                  <img
+                    src="lawliet_ss.png"
+                    alt="Lawliet"
+                    className="border border-gray-500 shadow-md w-full"
+                  />
+                </div>
+                <div className="w-full md:w-[60%]">
+                  <h3 className="text-xl font-bold py-2">Lawliet Website</h3>
+                  <p className="border-b-4 border-gray-800 pb-4">
                     Welcome to Lawliet website built with React, styled using
                     Tailwind CSS, and enhanced with DaisyUI components.
-                  </h4>
-                </div>
-                <div className="py-2 flex justify-start gap-4">
-                  <Github />
-                  <Component />
+                  </p>
+                  <div className="py-2 flex gap-4">
+                    <Github />
+                    <Component />
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="w-[49%] flex justify-between ">
-              <div className="w-[40%] py-10">
-                <img
-                  src="rinterio_ss.png"
-                  className="border border-gray-500 shadow-md"
-                ></img>
-              </div>
-              <div className="w-[55%] flex flex-col py-6">
-                <div className="flex flex-col border-b-4  border-gray-800">
-                  <h3 className="text-xl py-2 font-bold">Rinterio Website</h3>
-                  <h4 className="pb-4">
+              {/* Project Card 2 */}
+              <div className="w-full md:w-[49%] flex flex-col md:flex-row items-center md:items-start gap-4">
+                <div className="w-full md:w-[40%]">
+                  <img
+                    src="rinterio_ss.png"
+                    alt="Rinterio"
+                    className="border border-gray-500 shadow-md w-full"
+                  />
+                </div>
+                <div className="w-full md:w-[60%]">
+                  <h3 className="text-xl font-bold py-2">Rinterio Website</h3>
+                  <p className="border-b-4 border-gray-800 pb-4">
                     Welcome to Rinterio website built with React, styled using
                     Tailwind CSS, and enhanced with DaisyUI components.
-                  </h4>
-                </div>
-                <div className="py-2 flex justify-start gap-4">
-                  <Github />
-                  <Component />
+                  </p>
+                  <div className="py-2 flex gap-4">
+                    <Github />
+                    <Component />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="w-full flex justify-between mx-auto gap-2">
-            <div className="w-[49%] flex justify-between ">
-              <div className="w-[40%] py-10">
-                <img
-                  src="banglalibrary_ss.png"
-                  className="border border-gray-500 shadow-md"
-                ></img>
-              </div>
-              <div className="w-[55%] flex flex-col py-6">
-                <div className="flex flex-col border-b-4  border-gray-800">
-                  <h3 className="text-xl py-2 font-bold">
+            {/* Row 2 */}
+            <div className="flex flex-col md:flex-row justify-between gap-4">
+              {/* Project Card 3 */}
+              <div className="w-full md:w-[49%] flex flex-col md:flex-row items-center md:items-start gap-4">
+                <div className="w-full md:w-[40%]">
+                  <img
+                    src="banglalibrary_ss.png"
+                    alt="Bangla Library"
+                    className="border border-gray-500 shadow-md w-full"
+                  />
+                </div>
+                <div className="w-full md:w-[60%]">
+                  <h3 className="text-xl font-bold py-2">
                     Bangla Library Website
                   </h3>
-                  <h4 className="pb-4">
+                  <p className="border-b-4 border-gray-800 pb-4">
                     Welcome to Bangla Library website built with React, styled
                     using Tailwind CSS, and enhanced with DaisyUI components.
-                  </h4>
-                </div>
-                <div className="py-2 flex justify-start gap-4">
-                  <Github />
-                  <Component />
+                  </p>
+                  <div className="py-2 flex gap-4">
+                    <Github />
+                    <Component />
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="w-[49%] flex justify-between ">
-              <div className="w-[40%] py-10">
-                <img
-                  src="sneakers_ss.png"
-                  className="border border-gray-500 shadow-md"
-                ></img>
-              </div>
-              <div className="w-[55%] flex flex-col py-6">
-                <div className="flex flex-col border-b-4  border-gray-800">
-                  <h3 className="text-xl py-2 font-bold">Sneakers Website</h3>
-                  <h4 className="pb-4">
+              {/* Project Card 4 */}
+              <div className="w-full md:w-[49%] flex flex-col md:flex-row items-center md:items-start gap-4">
+                <div className="w-full md:w-[40%]">
+                  <img
+                    src="sneakers_ss.png"
+                    alt="Sneakers"
+                    className="border border-gray-500 shadow-md w-full"
+                  />
+                </div>
+                <div className="w-full md:w-[60%]">
+                  <h3 className="text-xl font-bold py-2">Sneakers Website</h3>
+                  <p className="border-b-4 border-gray-800 pb-4">
                     Welcome to Sneakers website built with React, styled using
                     Tailwind CSS, and enhanced with DaisyUI components.
-                  </h4>
-                </div>
-                <div className="py-2 flex justify-start gap-4">
-                  <Github />
-                  <Component />
+                  </p>
+                  <div className="py-2 flex gap-4">
+                    <Github />
+                    <Component />
+                  </div>
                 </div>
               </div>
             </div>
@@ -344,7 +351,6 @@ function App() {
       </section>
       <section className="bg-lightbg">
         <div className="flex flex-col items-center w-[90%] md:w-[75%] mx-auto my-8 py-11">
-          {/* Title */}
           <div className="flex items-center w-full mb-8">
             <div className="flex-grow h-px bg-gray-400"></div>
             <h2 className="px-4 text-xl md:text-2xl font-bold text-highlightedColor">
@@ -353,7 +359,6 @@ function App() {
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
 
-          {/* Contact Content */}
           <div className="w-full max-w-md text-center">
             <p className="mb-4 text-base md:text-lg">
               I am currently seeking employment, and I would appreciate it if
@@ -365,7 +370,6 @@ function App() {
             </h2>
 
             <form className="space-y-4 text-left">
-              {/* Name */}
               <div>
                 <label
                   htmlFor="name"
@@ -381,7 +385,6 @@ function App() {
                 />
               </div>
 
-              {/* Email */}
               <div>
                 <label
                   htmlFor="email"
@@ -397,7 +400,6 @@ function App() {
                 />
               </div>
 
-              {/* Message */}
               <div>
                 <label
                   htmlFor="message"
@@ -413,7 +415,6 @@ function App() {
                 ></textarea>
               </div>
 
-              {/* Button */}
               <div className="text-center pt-2">
                 <button
                   type="submit"
